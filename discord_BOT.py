@@ -51,7 +51,7 @@ async def on_message(message):
         return
 
     if message.content == '/exit':
-        await message.channel.send('ﾉｼ')
+        await message.channel.send('終了します')
         sys.exit()
 
     if ModeFlag == 1:
